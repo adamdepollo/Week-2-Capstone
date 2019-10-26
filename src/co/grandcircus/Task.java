@@ -9,16 +9,12 @@ public class Task {
 	private String teamMemberName;
 	private String whetherComplete;
 	private String taskDescription;
-	// private List<String> task;
 
 	public Task(String teamMemberName, String taskDescription, String dueDate) {
 		setDueDate(dueDate);
 		setTeamMemberName(teamMemberName);
 		whetherComplete = "x";
 		setTaskDescription(taskDescription);
-		// List<String> taskList = new LinkedList<>(
-		// Arrays.asList(this.teamMemberName, this.taskDescription, this.dueDate,
-		// this.whetherComplete));
 	}
 
 	public Task() {
